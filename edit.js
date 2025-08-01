@@ -43,7 +43,9 @@
 
         const addressButton = createUpdateButton("address_button");
         addressButton.addEventListener('click',async () => singleUpdate(['postcode','address_address','address_roomnumber','address_name','address_recipient_Change']));
-    
+        
+        const emergencyButton = createUpdateButton("emergency_button");
+        emergencyButton.addEventListener('click',async () => singleUpdate(['emergency_stop']));
        })
 
      function createUpdateButton (spaceId) {
