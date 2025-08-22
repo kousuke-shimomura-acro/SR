@@ -1,0 +1,17 @@
+@charset "UTF-8";
+.ui.items>.item {
+  display:block;
+}
+.ui.items>.item>.content {
+  margin: auto;
+  width: 830px;
+}
+.label-title {
+  font-size:25px;
+}
+.label-app-number {
+  margin-left:260px;
+}
+.text-confirmation {
+  margin-left:220px;
+}

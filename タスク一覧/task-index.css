@@ -1,0 +1,56 @@
+
+.main {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container {
+
+}
+
+.title-content {
+
+}
+.title {
+    font-size: 30px;
+}
+
+.task-content {
+    margin-left: 46px;
+}
+
+.task-index {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.task {
+    display: flex;
+    padding-left: 5%;
+    padding-right: 6%;
+    justify-content: space-between;
+    border: 1px solid #000;
+}
+
+.task-item1 {
+    width: 40%;
+}
+
+.task-name {
+
+}
+
+.task-check {
+
+}
+
+.task-status {
+
+}
+
+.task-item2 {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}

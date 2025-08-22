@@ -1,0 +1,61 @@
+
+.form-area {
+    height: 185px;
+    width: 1960px;
+    margin: auto auto 100px auto;
+    padding:20px 20px;
+    border: solid;
+}
+
+#form-content {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.input-items {
+    display: inline;
+}
+
+.form-buttons {
+  text-align: right;
+  margin: 55px 230px 0 0;
+}
+
+#customized-view{
+    width: 2000px;
+    margin: auto;
+    padding:20px opx;
+}
+
+.select {
+    width: 200px;
+}
+.table {
+    width:100%;
+}
+
+.update-button {
+  position: absolute;
+  width:100%;
+}
+
+.update-button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
+.memo {
+  top: 115%;
+}
+
+.address {
+  top:305%;
+}
+
+ .app-form-button, .emergency-button {
+  top:20%;
+  left:85%;
+ }
